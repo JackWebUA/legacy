@@ -84,7 +84,7 @@ span {
     display: flex;
     border: 2px solid #696969;
     min-height: 150px;
-    transition: background 0.3s ease;
+    transition: background 0.6s ease;
 }
 
 .apart-3 {
