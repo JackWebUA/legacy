@@ -74,16 +74,16 @@ span {
     display: grid;
     grid-gap: 16px;
     grid-template-areas:
-    "apart-3 apart-3"
-    "apart-1 house"
-    "money money";
+    "apart-3 apart-3 apart-3"
+    "apart-1 apart-1 money"
+    "house house none";
     margin-bottom: 32px;
 }
 
 .object {
     display: flex;
     border: 2px solid #696969;
-    min-height: 200px;
+    min-height: 150px;
     transition: background 0.3s ease;
 }
 
@@ -134,7 +134,7 @@ h2 {
 }
 
 .bg-third {
-    background: linear-gradient(90deg, #2ecc71 75%, #e74c3c 25%);
+    background: linear-gradient(90deg, #2ecc71 66.6%, #e74c3c 33.3%);
 }
 
 .bg-green {
